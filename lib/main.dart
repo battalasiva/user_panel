@@ -12,6 +12,7 @@ void main() async{
   await SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
   ]);
+  //Hive
   await Hive.initFlutter();
 
   await Hive.openBox('avatarBox');
